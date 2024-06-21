@@ -2,11 +2,12 @@
 
 ## Project Overview
 
-This project involves an analysis conducted for Toman Bike Share to determine if increasing prices next year is feasible. As a data analyst,the focus was on examining current and historical data to provide insights for pricing decisions.
+This project involves an analysis conducted for Toman Bike Share to determine if increasing prices next year is feasible.
+As a data analyst,the focus was on examining current and historical data to provide insights for pricing decisions.
 
 ## Tools and Technologies
-SQL: Used for data extraction,transformation,and loading (ETL) processes.
-Power BI: Utilized for data visualization and dashboard creation to present findings.
+-  SQL: Used for data extraction,transformation,and loading (ETL) processes.
+-  Power BI: Utilized for data visualization and dashboard creation to present findings.
 ## Objectives
 -  Hourly revenue Analysis.
 -  Profit and revenue trends.
@@ -20,12 +21,12 @@ Power BI: Utilized for data visualization and dashboard creation to present find
 ## Data Sources
 You can access the datasets through the following links:
 
-https://github.com/lbaraza/SQL-Power-BI/blob/main/bike_share_yr_0.csv
-https://github.com/lbaraza/SQL-Power-BI/blob/main/bike_share_yr_1.csv
-https://github.com/lbaraza/SQL-Power-BI/blob/main/cost_table.csv
+-  https://github.com/lbaraza/SQL-Power-BI/blob/main/bike_share_yr_0.csv
+-  https://github.com/lbaraza/SQL-Power-BI/blob/main/bike_share_yr_1.csv
+-  https://github.com/lbaraza/SQL-Power-BI/blob/main/cost_table.csv
 ## Usage
-SQL Scripts: Located in the sql directory, containing scripts used for data extraction and transformation.
-Power BI Dashboard: Located in the powerbi directory, showcasing the interactive dashboard created for the analysis.
+-  SQL Scripts: Located in the sql directory, containing scripts used for data extraction and transformation.
+-  Power BI Dashboard: Located in the powerbi directory, showcasing the interactive dashboard created for the analysis.
 
 ## Conclusion
 The analysis provides a comprehensive overview of Toman Bike Share's current performance and supports informed decision-making regarding potential price adjustments.
