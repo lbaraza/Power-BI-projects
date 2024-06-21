@@ -32,7 +32,8 @@ You can access the datasets through the following links:
 The analysis provides a comprehensive overview of Toman Bike Share's current performance and supports informed decision-making regarding potential price adjustments.
 
 ## SQL Code
-'''WITH cte AS (
+```
+WITH cte AS (
     SELECT * FROM bike_share_yr_0
     UNION ALL
     SELECT * FROM bike_share_yr_1
@@ -56,7 +57,6 @@ LEFT JOIN
     cost_table b 
 ON 
     a.yr = b.yr;
-Explanation
-CTE (Common Table Expression): Combines data from two tables (bike_share_yr_0 and bike_share_yr_1) using UNION ALL.
-Main Query: Selects relevant columns from the combined data (cte) and joins with the cost_table on the yr column.
-Calculations: Computes revenue as riders * price and profit as (riders * price) - COGS.'''
+```
+
+
